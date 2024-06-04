@@ -4,4 +4,5 @@ test.html
 test.sass
 
 *.css
+*.css.map
 *.js
