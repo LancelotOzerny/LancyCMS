@@ -1,0 +1,54 @@
+$base-font: inter;
+$base-font-weight: 300;
+
+$light-bg-color: #ffffff;
+$dark-bg-color: #efefef;
+
+
+@font-face {
+    font-family: inter;
+    src: url(fonts/inter/inter-light.ttf);
+    font-weight: 300;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: $base-font;
+    font-weight: $base-font-weight;
+}
+
+.page-block
+{
+    padding: 100px 20px;
+    box-shadow: 0 1px 2px #222;
+    min-height: 100vh;
+
+    .wrapper
+    {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    p {
+        margin: 20px 0;
+        text-indent: 50px;
+        line-height: 150%;
+        text-align: justify;
+    }
+}
+
+.page-block--dark
+{
+    background-color: $dark-bg-color;
+}
+
+.page-block--light
+{
+    background-color: $light-bg-color;
+}
