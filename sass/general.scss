@@ -52,3 +52,10 @@ body {
 {
     background-color: $light-bg-color;
 }
+
+.center-image-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+@import 'aboutme.scss';
