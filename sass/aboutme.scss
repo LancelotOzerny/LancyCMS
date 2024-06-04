@@ -3,3 +3,11 @@
     width: 300px;
     margin-bottom: 50px;
 }
+
+@media screen and (max-width: 480px) 
+{
+    #aboutme .profile-image 
+    {
+        width: 250px;
+    }
+}

@@ -1,6 +1,10 @@
 $base-font: inter;
 $base-font-weight: 300;
 
+$base-font-size-320: 14px;
+$base-font-size-480: 16px;
+$base-font-size: 18px;
+
 $light-bg-color: #ffffff;
 $dark-bg-color: #efefef;
 
@@ -18,25 +22,26 @@ $dark-bg-color: #efefef;
 }
 
 body {
-    font-size: 18px;
+    font-size: $base-font-size;
     font-family: $base-font;
     font-weight: $base-font-weight;
 }
 
 .page-block
 {
-    padding: 100px 20px;
     box-shadow: 0 1px 2px #222;
     min-height: 100vh;
 
     .wrapper
     {
-        width: 1000px;
+        padding: 100px 50px;
         margin: 0 auto;
+        max-width: 1400px;
     }
 
-    p {
-        margin: 20px 0;
+    p 
+    {
+        padding: 20px 0;
         text-indent: 50px;
         line-height: 150%;
         text-align: justify;
@@ -56,6 +61,45 @@ body {
 .center-image-block {
     display: flex;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 1000px) 
+{
+    body
+    {
+        font-size: $base-font-size-480;
+    }
+
+    .page-block .wrapper
+    {
+        padding: 50px 50px;
+    }
+}
+
+@media screen and (max-width: 768px) 
+{
+    body
+    {
+        font-size: $base-font-size-480;
+    }
+
+    .page-block .wrapper
+    {
+        padding: 50px 50px;
+    }
+}
+
+@media screen and (max-width: 480px) 
+{
+    body
+    {
+        font-size: $base-font-size-320;
+    }
+
+    .page-block .wrapper
+    {
+        padding: 50px 25px;
+    }
 }
 
 @import 'aboutme.scss';
