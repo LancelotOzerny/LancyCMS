@@ -35,11 +35,11 @@ body {
 .page-block
 {
     border-bottom: 3px solid #aaa;
-    min-height: 100vh;
+    padding-top: 50px;
 
     .wrapper
     {
-        padding: 100px 50px;
+        padding: 50px 50px 100px 50px;
         margin: 0 auto;
         max-width: 1400px;
     }
@@ -50,6 +50,23 @@ body {
         text-indent: 50px;
         line-height: 150%;
         text-align: justify;
+    }
+}
+
+.page-title
+{
+    font-size: $base-font-size * 2;
+    text-transform: uppercase;
+    background-color: #3f4441;
+    display: block;
+    color: #fff;
+    width: fit-content;
+    box-shadow: 0 0 3px #aaa;
+
+    p
+    {
+        padding-right: 50px;
+        font-weight: 700;
     }
 }
 
@@ -109,3 +126,4 @@ body {
 
 @import 'aboutme.scss';
 @import 'slider.scss';
+@import 'portfolio.scss';
