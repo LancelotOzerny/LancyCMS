@@ -65,8 +65,11 @@ body {
 
     p
     {
-        padding-right: 50px;
+        text-indent: 0;
+        padding: 10px 30px;
         font-weight: 700;
+        text-align: left;
+        display: inline-block;
     }
 }
 
@@ -109,6 +112,19 @@ body {
     {
         padding: 50px 50px;
     }
+
+    .page-title
+    {
+        font-size: $base-font-size * 1.5;
+        display: block;
+        width: fit-content;
+
+        p
+        {
+            text-indent: 0;
+            padding: 25px 30px;
+        }
+    }
 }
 
 @media screen and (max-width: 480px) 
@@ -121,6 +137,16 @@ body {
     .page-block .wrapper
     {
         padding: 50px 25px;
+    }
+
+    .page-title
+    {
+        font-size: $base-font-size;
+        p
+        {
+            text-indent: 0;
+            padding: 15px 25px;
+        }
     }
 }
 
