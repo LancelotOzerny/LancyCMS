@@ -1,18 +1,23 @@
 .portfolio-container
 {
-    
+    display: grid;
+    gap: 50px;
+    align-items: center;
 }
 .project 
 {
-
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
 .project-image 
 {
-
+    width: 256px;
+    height: 256px;
 }
 .project-info 
 {
-
+    height: 100%;
 }
 .project-title 
 {
