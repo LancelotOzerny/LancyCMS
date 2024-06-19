@@ -15,19 +15,65 @@
     width: 256px;
     height: 256px;
 }
-.project-info 
+.project-info
 {
     height: 100%;
 }
-.project-title 
-{
 
+
+@media screen and (max-width: 1000px) 
+{
+    .project-image 
+    {
+        width: 160px;
+        height: 160px;
+    }
 }
-.project-description 
-{
 
+@media screen and (max-width: 768px) 
+{
+    .project-image 
+    {
+        width: 320px;
+        height: 320px;
+    }
+
+    .project 
+    {
+        flex-direction: column;
+    }
+
+    .project-title
+    {
+        text-align: center;
+    }
+
+    .project-link-wrapper
+    {
+        display: block;
+        text-align: right;
+    }
+
+    .portfolio-container
+    {
+        gap: 100px;
+    }
+    .project 
+    {
+        gap: 0px;
+    }
 }
-.project-link 
-{
 
+@media screen and (max-width: 480px)
+{
+    .project-image 
+    {
+        width: 256px;
+        height: 256px;
+    }
+
+    .portfolio-container
+    {
+        gap: 50px;
+    }
 }
