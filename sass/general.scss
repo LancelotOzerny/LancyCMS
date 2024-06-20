@@ -40,6 +40,11 @@ body {
     font-weight: $base-font-weight;
 }
 
+a
+{
+    color: #222;
+}
+
 .page-block
 {
     border-bottom: 3px solid #aaa;
@@ -167,3 +172,4 @@ body {
 @import 'aboutme.scss';
 @import 'slider.scss';
 @import 'portfolio.scss';
+@import 'contacts.scss';
