@@ -76,23 +76,39 @@ p.contact-value
     {
         .wrapper
         {
-            gap: 25px;
+            gap: 50px;
         }
-    }    
+    }
+
+    .social-networks
+    {
+        display: flex;
+    }
 
     .contact
     {
         display: grid;
     }
 
+    .contacts
+    {
+        display: grid;
+        gap: 20px;
+    }
+
     p.contact-title
     {
         text-align: center;
-        padding: 0 0px 20px 0;
+        padding: 0 0px 10px 0;
     }
 
     p.contact-value
     {
         padding: 0 0 50px 0;
+    }
+
+    p.contact-value:last-child
+    {
+        padding: 0;
     }
 }

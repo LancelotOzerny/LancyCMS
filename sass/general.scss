@@ -1,7 +1,6 @@
 $base-font: inter;
 $base-font-weight: 300;
 
-$base-font-size-320: 14px;
 $base-font-size-480: 16px;
 $base-font-size: 18px;
 
@@ -122,11 +121,6 @@ a
 
 @media screen and (max-width: 768px) 
 {
-    body
-    {
-        font-size: $base-font-size-480;
-    }
-
     .page-block .wrapper
     {
         padding: 50px 50px;
@@ -150,7 +144,7 @@ a
 {
     body
     {
-        font-size: $base-font-size-320;
+        font-size: $base-font-size-480;
     }
 
     .page-block .wrapper
