@@ -11,6 +11,16 @@
   justify-content: space-between;
 }
 
+.navigation a
+{
+  transition: .1s;
+}
+
+.navigation a:hover
+{
+  color: #61a2da;
+}
+
 .navigation-logo img
 {
   width: 55px;
@@ -32,6 +42,8 @@
 
   a:hover
   {
-    color: #FFFFFF;
+    font-size: 30px;
+    transition: .1s;
+    padding: 5px;
   }
 }
