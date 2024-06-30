@@ -1,4 +1,6 @@
 [Tt]est/
+.idea/
+
 test.php
 test.html
 test.sass
