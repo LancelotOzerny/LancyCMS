@@ -1,0 +1,38 @@
+.contact-form-element
+{
+  box-shadow: 0 0 2px #222;
+  border-radius: 3px;
+  min-height: 40px;
+}
+
+.contact-form
+{
+  margin:  0 auto 100px auto;
+  gap: 50px;
+  width: 840px;
+  display: grid;
+}
+
+input.contact-form-element
+{
+  padding: 0 20px;
+}
+
+textarea.contact-form-element
+{
+  height: 250px;
+  padding: 20px;
+}
+
+.contact-form-element-wrapper
+{
+  display: grid;
+  gap: 25px;
+}
+
+input[type="submit"].contact-form-element
+{
+  margin: 0 auto;
+  width: 300px;
+  cursor: pointer;
+}

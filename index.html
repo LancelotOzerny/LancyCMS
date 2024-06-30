@@ -118,7 +118,22 @@
         <div class="page-title">
             <p>Связаться</p>
         </div>
+
         <div class="wrapper">
+            <form class="contact-form" method="post">
+                <div class="contact-form-element-wrapper">
+                    <label class="contact-form-label" for="email-field">Почта</label>
+                    <input class="contact-form-element" id="email-field" type="email" placeholder="your.email@your.email">
+                </div>
+
+                <div class="contact-form-element-wrapper">
+                    <label class="contact-form-label" for="message-field">Сообщение</label>
+                    <textarea id="message-field" class="contact-form-element" name="message" placeholder="your message"></textarea>
+                </div>
+
+                <input class="contact-form-element" type="submit">
+            </form>
+
             <div class="navigation">
                 <a href="" class="navigation-logo">
                     <img src="images/logo.png" alt="SOS Logo">
